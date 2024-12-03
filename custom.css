@@ -1,0 +1,61 @@
+.jumbotron {
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+body {
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    color: #007bff;
+    font-weight: bold;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+    color: #e2e6ea;
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.modal-footer button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.modal-footer button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgb(3, 52, 251); 
+    border-radius: 50%; 
+    width: 40px;
+    height: 40px;
+}
+
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgb(11, 120, 63); 
+    transition: background-color 0.3s ease; 
+}
